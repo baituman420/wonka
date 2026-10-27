@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8D6A2A" stop-opacity="0.14"/>
+      <stop offset="50%" stop-color="#D4A349" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#8D6A2A" stop-opacity="0.14"/>
+    </linearGradient>
+  </defs>
+  <!-- Grand Arch -->
+  <path d="M0,120 V60 A60,60 0 0,1 120,60 V120" fill="none" stroke="url(#goldLine)" stroke-width="0.8"/>
+  <!-- Inner Arch -->
+  <path d="M15,120 V60 A45,45 0 0,1 105,60 V120" fill="none" stroke="url(#goldLine)" stroke-width="0.6" stroke-dasharray="2,4"/>
+  <!-- Center fan flutes -->
+  <line x1="60" y1="60" x2="60" y2="15" stroke="url(#goldLine)" stroke-width="0.6"/>
+  <line x1="60" y1="60" x2="30" y2="22" stroke="url(#goldLine)" stroke-width="0.5"/>
+  <line x1="60" y1="60" x2="90" y2="22" stroke="url(#goldLine)" stroke-width="0.5"/>
+  <line x1="60" y1="60" x2="12" y2="40" stroke="url(#goldLine)" stroke-width="0.5"/>
+  <line x1="60" y1="60" x2="108" y2="40" stroke="url(#goldLine)" stroke-width="0.5"/>
+  <!-- Keystone Star -->
+  <circle cx="60" cy="60" r="2" fill="#D4A349" fill-opacity="0.25"/>
+  <circle cx="60" cy="15" r="1.5" fill="#D4A349" fill-opacity="0.3"/>
+</svg>

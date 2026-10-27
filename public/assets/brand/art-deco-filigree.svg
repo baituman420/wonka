@@ -1,0 +1,13 @@
+<svg width="600" height="36" viewBox="0 0 600 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0 18 H230" stroke="#8D6A2A" stroke-width="1" stroke-opacity="0.3"/>
+  <path d="M370 18 H600" stroke="#8D6A2A" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Left flourish -->
+  <path d="M230 18 C245 18 250 8 260 8 C268 8 274 14 274 20 C274 26 266 30 258 26 C252 23 252 16 260 14" stroke="#D4A349" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Right flourish (mirrored) -->
+  <path d="M370 18 C355 18 350 8 340 8 C332 8 326 14 326 20 C326 26 334 30 342 26 C348 23 348 16 340 14" stroke="#D4A349" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Center Rhombus & Starburst -->
+  <polygon points="300,6 308,18 300,30 292,18" fill="#8D6A2A" fill-opacity="0.2" stroke="#D4A349" stroke-width="1"/>
+  <circle cx="300" cy="18" r="3" fill="#2E1050"/>
+  <circle cx="282" cy="18" r="2" fill="#8D6A2A" fill-opacity="0.6"/>
+  <circle cx="318" cy="18" r="2" fill="#8D6A2A" fill-opacity="0.6"/>
+</svg>

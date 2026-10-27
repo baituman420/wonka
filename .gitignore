@@ -1,0 +1,27 @@
+# Temporary and large raw archives
+*.zip
+node_modules/
+.DS_Store
+*.log
+
+# Scratch and python build artifacts
+scratch/
+__pycache__/
+*.pyc
+
+# Loose raw Instagram dumps in root (curated copies exist in public/assets/)
+753*.jpg
+765*.jpg
+779*.jpg
+787*.jpg
+795*.jpg
+801*.jpg
+803*.jpg
+808*.jpg
+815*.jpg
+817*.jpg
+825*.jpg
+836*.jpg
+840*.jpg
+846*.jpg
+willy-wonka-pictures-*.webp
